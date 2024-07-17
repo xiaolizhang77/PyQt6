@@ -27,7 +27,7 @@ pyuic将ui文件自动变python文件：
 ![图5](image/md_img_5.png "image5")
 
 ### 二、简单窗口代码实现
-#### 简单python代码示例
+#### 1.简单python代码示例
 
 代码("./入门示例/helloworld.py")：
 
@@ -54,7 +54,7 @@ pyuic将ui文件自动变python文件：
     
     sys.exit(app.exec())  # 开始执行程序，并进行消息等待
 
-#### 展示QTDesigner界面
+#### 2.展示QTDesigner界面
 代码("./入门示例/加载ui文件.py")：
 
     from PyQt6.QtWidgets import QApplication
@@ -69,3 +69,6 @@ pyuic将ui文件自动变python文件：
     sys.exit(app.exec())
 
 **工程一般采用QTDesigner设计界面，python代码实现控件逻辑**
+
+#### 3.将ui文件转为python源码，直接编辑运行源码
+代码("./入门示例/ui_1.py")
